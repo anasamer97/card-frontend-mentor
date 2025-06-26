@@ -18,12 +18,13 @@ main section {
 
 main section .card {
     border: 2px solid #fff;
-    width: 40%;
+    width: 45%;
     margin: auto;
     border-radius: 12px;
-    padding: 10px;
+    padding: 20px;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 2px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     
 }
 
@@ -37,9 +38,14 @@ main section .image img {
     
 }
 
+.text h3 {
+    font-size: 1.25rem;
+    color: hsl(218, 44%, 22%);
+}
+
 .text p {
     color: hsl(216, 15%, 48%);
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 @media (max-width: 600px) {
